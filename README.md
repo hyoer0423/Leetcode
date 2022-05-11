@@ -8,4 +8,4 @@ Two languages : python and java
 5. time and space complexity+justify
 Data structure:
 
-![ ](graph/截屏2022-04-25 下午1.26.13.png)
+![ ](graph/ds.png)
