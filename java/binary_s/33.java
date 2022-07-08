@@ -1,4 +1,4 @@
-class Solution {
+class Main {
     public int search(int[] nums, int target) {
         if (nums.length<1 ||nums==null) return -1;
         int left=0,right=nums.length-1;
@@ -29,5 +29,10 @@ class Solution {
         }
         return -1;
     }
+    public static void main(String[] args) {
+        Main myobj=new Main();
+        int res=myobj.search(new int[]{4,5,6,7,0,1,2},3);
+        System.out.println(res);
+      }
     
 }
